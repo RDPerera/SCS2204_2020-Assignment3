@@ -6,7 +6,6 @@ object question6 extends App
     case _ => fib(n-1)+fib(n-2)
   }
   def fibSeq(n : Int,i : Int = 0) : Unit = {
-
     print(fib(i)+" ")
     if (n-1 > i) fibSeq(n,i+1)
   }
